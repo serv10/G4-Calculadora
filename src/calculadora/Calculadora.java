@@ -44,7 +44,6 @@ public class Calculadora extends javax.swing.JFrame {
         jButton28 = new javax.swing.JButton();
         jButton29 = new javax.swing.JButton();
         botonMultiplicar = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
         jButton32 = new javax.swing.JButton();
         jButton33 = new javax.swing.JButton();
         jButton34 = new javax.swing.JButton();
@@ -62,7 +61,7 @@ public class Calculadora extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        panel.setLayout(new java.awt.GridLayout(5, 5));
+        panel.setLayout(new java.awt.GridLayout(5, 4));
 
         botonC.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         botonC.setText("C");
@@ -138,9 +137,6 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
         panel.add(botonMultiplicar);
-
-        jButton1.setText("jButton1");
-        panel.add(jButton1);
 
         jButton32.setBackground(new java.awt.Color(204, 204, 204));
         jButton32.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -267,7 +263,7 @@ public class Calculadora extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(panel, javax.swing.GroupLayout.DEFAULT_SIZE, 316, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -578,7 +574,6 @@ public class Calculadora extends javax.swing.JFrame {
     private javax.swing.JButton botonSumar;
     private javax.swing.JLabel etiquetaMuestra;
     private javax.swing.JLabel etiquetaNumeros;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton32;

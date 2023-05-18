@@ -23,7 +23,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="panel" max="32767" attributes="0"/>
+          <Component id="panel" pref="316" max="32767" attributes="0"/>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -51,7 +51,7 @@
     <Container class="javax.swing.JPanel" name="panel">
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
-        <Property name="columns" type="int" value="5"/>
+        <Property name="columns" type="int" value="4"/>
         <Property name="rows" type="int" value="5"/>
       </Layout>
       <SubComponents>
@@ -151,11 +151,6 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonMultiplicarActionPerformed"/>
           </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jButton1"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton32">
           <Properties>
